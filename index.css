@@ -1,0 +1,10 @@
+*{
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+:root{
+    --clr-light_green: #1eb2a6;
+    --clr-white_main: #fff;
+    --clr-heading_colors: rgba(0, 0, 0, 0.8);
+    --clr-light_color: #999999;
+}
