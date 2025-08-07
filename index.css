@@ -10,6 +10,74 @@
     --clr-heading_colors: rgba(0, 0, 0, 0.8);
     --clr-light_color: #999999;
 }
+.learn{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    background:#fff ;
+    width: 900px;
+    position: relative;
+}
+.mart{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    padding: 9px;
+}
+.goku{
+    padding: 4px;
+    
+}
+.daniel{
+    padding: 4px;
+}
+.ben{
+    padding: 2px;
+}
+.scenes{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bingo{
+    font-size: 15px;
+    color: lightseagreen;
+    margin: 25px;
+}
+.frank{
+    margin: 9px;
+    background: #fff;
+    grid-template-columns: auto;
+}
+h1{
+    justify-content: space-evenly;
+}
+.glory:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.chloe:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.gift:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.chloe{
+    padding-top: 25px;
+}
+/* img{
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+@keyframes rotate {
+    0%{
+    from{background: #f4f4f4;}
+    to{background: #1eb2a6; }
+    }
+} */
+
 .project{
   background: url(https://media.istockphoto.com/id/1650577135/photo/portrait-of-a-smiling-young-volunteer.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rm9Z5tWVnXVHAUXI9crq7SmsnD5z-IlrwibbGoI-dco=)
 }
