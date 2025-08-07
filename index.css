@@ -1,10 +1,28 @@
-*{
-    font-family: "Roboto", Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-
-:root{
+:root {
     --clr-light_green: #1eb2a6;
     --clr-white_main: #fff;
     --clr-heading_colors: rgba(0, 0, 0, 0.8);
     --clr-light_color: #999999;
 }
+.head{
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  background: var(--clr-light_green);
+  color: var(--clr-white_main);
+}
+.nav ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+  background: var(--clr-light_color);
+  color: var(--clr-white_main);
+  padding: 20px;
+} 
