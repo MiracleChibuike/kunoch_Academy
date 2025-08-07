@@ -1,4 +1,5 @@
 
+
 *{
     font-family: "Roboto", Arial, sans-serif;
     box-sizing: border-box;
@@ -53,9 +54,271 @@ width: 220px;
     color: #fff;
 }
 
-:root{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
     --clr-light_green: #1eb2a6;
     --clr-white_main: #fff;
     --clr-heading_colors: rgba(0, 0, 0, 0.8);
     --clr-light_color: #999999;
+}
+.middle{
+    text-align: center;
+}
+.ff{
+    color: #1eb2a6 ;
+}
+.writeup{
+    color: #999999;
+}
+.HQ{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+     animation-name: rotate;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+    
+    
+}
+  @keyframes rotate {
+            0%{
+                 /* background: blue;  */
+                }
+                25%, 50%{
+                    /*transform: translateX(40vh);*/
+                   
+                    /* background: greenyellow; */
+                    transform: scale(1.2); 
+                 }
+                 100%{
+                    /* background: blueviolet; */
+                    transform: 40vh;
+                    /* transform: scale(1.1);
+                    position: relative;
+                    left: 100px;
+                    left: 200px;
+                    right: 100px; */
+                 }
+}
+ .HQ > div{
+    text-align: center;
+        background-color: #ffffff;
+    box-shadow: 0  0 10PX #999999;
+    border-radius: 5px;
+
+}
+.BUTTON{
+    /* height: 50PX; */
+    /* width: 70%; */
+    padding: 10px 60px;
+    border-radius: 3PX;
+    border: none;
+}
+.BUTTON:hover{
+          transform: 8s;
+          background-color: #1eb2a6;
+    
+        
+       
+
+}
+ @media screen and (min-width:0) and (max-width:700px) {
+            .HQ{
+                grid-template-columns: auto;
+            }
+
+            .HQ > div {
+                display: block;
+            }
+        }
+
+        @media screen and (min-width:700px) and (max-width:1030px) {
+              .HQ{
+                grid-template-columns: auto auto;
+            }
+
+            .HQ > div {
+                display: block;
+            }
+        }
+           
+        /* media for mobile */
+.parent{
+    background: #e0dfdf;
+}
+/* .testimony{
+    height: 500px;
+} */
+.contents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}   
+h4, h2{
+    text-align: center;
+}
+h4{
+    color: #1eb2a6;
+    padding-top: 7px;
+}
+.person{
+    width: 500px;
+    height: 100%;
+    background: var(--clr-white_main);
+    margin-left: 30px;
+}
+.person:hover{
+    background: #1eb2a6;
+    color: white;
+}
+.man{
+    margin-left: 35px;
+    padding: 30px 0;
+}
+.image{
+    display: flex;
+    /* margin-left: 20px; */
+    /* padding-top: 20px; */
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+i{
+    background: #1eb2a6;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    bottom: 73%;
+    transform: translateX(55px);
+    /* left: 10px; */
+    /* right: 2px; */
+    /* margin-right: 10px; */
+    padding: 5px 7px;
+    font-size: 20px;
+}
+.person:hover .fa-solid{
+    background: white;
+    color: #1eb2a6;
+}
+.image p{
+    margin-left: 15px;
+}
+p{
+    line-height: 30px;
+}
+#name{
+    font-size: 22px;
+    font-weight: bold;
+}
+#job{
+    font-size: 16px;
+    color: #1eb2a6;
+    font-weight: bold;
+}
+.person:hover #job{
+    color: white;
+}
+#from{
+    font-size: 16px;
+    word-spacing: 3px;
+}
+.learn{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    background:#fff ;
+    width: 900px;
+    position: relative;
+}
+.mart{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    padding: 9px;
+}
+.goku{
+    padding: 4px;
+    
+}
+.daniel{
+    padding: 4px;
+}
+.ben{
+    padding: 2px;
+}
+.scenes{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bingo{
+    font-size: 15px;
+    color: lightseagreen;
+    margin: 25px;
+}
+.frank{
+    margin: 9px;
+    background: #fff;
+    grid-template-columns: auto;
+}
+h1{
+    justify-content: space-evenly;
+}
+.glory:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.chloe:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.gift:hover{
+    background: seagreen;
+    box-shadow:0 0 15px #999999;
+}
+.chloe{
+    padding-top: 25px;
+}
+/* img{
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+@keyframes rotate {
+    0%{
+    from{background: #f4f4f4;}
+    to{background: #1eb2a6; }
+    }
+} */
+
+.project{
+  background: url(https://media.istockphoto.com/id/1650577135/photo/portrait-of-a-smiling-young-volunteer.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rm9Z5tWVnXVHAUXI9crq7SmsnD5z-IlrwibbGoI-dco=)
+}
+.head{
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  background: var(--clr-light_green);
+  color: var(--clr-white_main);
+  padding: 20px;
+}
+.nav ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+  background: var(--clr-light_color);
+  color: var(--clr-white_main);
+  padding: 20px;
+} 
+.nav2{
+  background: var(--clr-light_green);
+  color: var(--clr-white_main);
+  padding: 50px;
 }
