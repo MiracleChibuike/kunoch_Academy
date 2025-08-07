@@ -10,12 +10,16 @@
     --clr-heading_colors: rgba(0, 0, 0, 0.8);
     --clr-light_color: #999999;
 }
+.project{
+  background: url(https://media.istockphoto.com/id/1650577135/photo/portrait-of-a-smiling-young-volunteer.webp?a=1&b=1&s=612x612&w=0&k=20&c=Rm9Z5tWVnXVHAUXI9crq7SmsnD5z-IlrwibbGoI-dco=)
+}
 .head{
   justify-content: space-around;
   text-align: center;
   display: flex;
   background: var(--clr-light_green);
   color: var(--clr-white_main);
+  padding: 20px;
 }
 .nav ul{
   display: flex;
@@ -26,3 +30,8 @@
   color: var(--clr-white_main);
   padding: 20px;
 } 
+.nav2{
+  background: var(--clr-light_green);
+  color: var(--clr-white_main);
+  padding: 50px;
+}
