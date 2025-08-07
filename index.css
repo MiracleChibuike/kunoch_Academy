@@ -8,19 +8,14 @@
 body{
     background:var(--clr-light_color);
 }
-.newsletter{
+.newsletters{
     background-color: #1eb2a6;
     color: #fff;
     padding: 40px 20px;
-}
-.newsletter content{
-    width: 100px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
+
 .newsletter.text p{
     font-size: 14px;
     opacity: 0.8;
@@ -49,7 +44,6 @@ width: 220px;
     margin-top: 10px;
     text-align: end;
     display: flex;
-    justify-content: ;
 }
 .email-form button{
     background: transparent;
